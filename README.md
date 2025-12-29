@@ -70,6 +70,16 @@ Model, TF-IDF ile vektörleştirilmiş film metinlerini giriş olarak alır ve A
 📌 Sonuç
 Bu proje, derin öğrenme tabanlı ve tamamen eğitilen bir içerik tabanlı öneri sisteminin başarılı şekilde uygulanabileceğini göstermektedir. Kullanıcı verisi bulunmayan senaryolarda etkili bir çözüm sunmakta ve geliştirilmeye açık bir yapı sağlamaktadır.
 
+DİKKAT !!!
+Bu projede Kaggle üzerinde paylaşılan TMDB 5000 Movies veri seti kullanılmıştır.
+
+İndirme linki:
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+İndirilen dosyalar `data/` klasörü altına yerleştirilmelidir:
+- tmdb_5000_movies.csv
+- tmdb_5000_credits.csv
+
 
 📚 Kaynakça
 

@@ -5,13 +5,13 @@ Bu proje, TMDB (The Movie Database) veri seti kullanılarak geliştirilen, içer
 
 🚀 Projenin Amacı
 
-Film içeriklerine dayalı olarak benzer filmleri önerebilen bir sistem geliştirmek
+- Film içeriklerine dayalı olarak benzer filmleri önerebilen bir sistem geliştirmek
 
-Derin öğrenme tabanlı, denetimsiz ve tamamen eğitilen bir model kullanmak
+- Derin öğrenme tabanlı, denetimsiz ve tamamen eğitilen bir model kullanmak
 
-Kullanıcı geçmişi gerektirmeyen bir öneri yaklaşımı sunmak
+- Kullanıcı geçmişi gerektirmeyen bir öneri yaklaşımı sunmak
 
-Web tabanlı ve kullanıcı dostu bir arayüz oluşturmak
+- Web tabanlı ve kullanıcı dostu bir arayüz oluşturmak
 
 
 📊 Kullanılan Veri Seti
@@ -25,41 +25,41 @@ Veri setleri Kaggle platformu üzerinden temin edilmiştir.
 
 Filmler hakkında şu bilgiler kullanılmaktadır:
 
-Film özeti (overview)
+- Film özeti (overview)
 
-Türler (genres)
+- Türler (genres)
 
-Anahtar kelimeler (keywords)
+- Anahtar kelimeler (keywords)
 
-Oyuncular (cast)
+- Oyuncular (cast)
 
-Yönetmen bilgisi (crew)
+- Yönetmen bilgisi (crew)
 
 
 🧠 Kullanılan Yöntemler
 
-Metin Ön İşleme (lowercase, noktalama temizleme)
+1. Metin Ön İşleme (lowercase, noktalama temizleme)
 
-TF-IDF vektörleştirme
+2. TF-IDF vektörleştirme
 
-Çok Katmanlı AutoEncoder (PyTorch)
+3. Çok Katmanlı AutoEncoder (PyTorch)
 
-Cosine Similarity
+4. Cosine Similarity
 
-Yazım hatalarına toleranslı arama (difflib)
+5. Yazım hatalarına toleranslı arama (difflib)
 
-Streamlit Web Arayüzü
+6. Streamlit Web Arayüzü
 
 
 🎥 Web Arayüzü Özellikleri
 
-Büyük/küçük harf duyarsız film arama
+- Büyük/küçük harf duyarsız film arama
 
-Yazım hatalarına tolerans
+- Yazım hatalarına tolerans
 
-En yakın film adını otomatik tespit etme
+- En yakın film adını otomatik tespit etme
 
-Kart tabanlı, estetik öneri gösterimi
+- Kart tabanlı, estetik öneri gösterimi
 
 
 📈 Model Eğitimi ve Değerlendirme
